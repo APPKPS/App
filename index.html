@@ -26,18 +26,18 @@
     /* ดันขอบบนของ iframe ขึ้นไป -38px เพื่อซ่อนแถบของ Google Apps Script */
     .iframe-wrapper iframe {
       position: absolute;
-      top: -15px; 
+      top: -10px; 
       left: 0;
       width: 100%;
-      height: calc(100vh + 38px); /* ชดเชยความสูงด้านล่างให้เต็มจอพอดี */
+      height: calc(100vh + 10px); /* ชดเชยความสูงด้านล่างให้เต็มจอพอดี */
       border: none;
     }
 
     /* สำหรับหน้าจอมือถือ แถบเตือนอาจจะสูงขึ้นเล็กน้อย ปรับเป็น -42px */
     @media (max-width: 768px) {
       .iframe-wrapper iframe {
-        top: -16px;
-        height: calc(100vh + 42px);
+        top: -12px;
+        height: calc(100vh + 12px);
       }
     }
   </style>
